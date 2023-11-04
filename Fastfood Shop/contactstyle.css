@@ -1,0 +1,19 @@
+/* Contact CSS */
+.contact{
+    background-color: #feeee7;
+    padding: 70px 0;
+    text-align: center;
+    width: 66%;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.contact h2{
+    font-size: 2rem;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+    opacity: 0; /* start animation*/
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .1s;
+    /* end animation*/
+}
